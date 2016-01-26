@@ -1,0 +1,2 @@
+The scripts under FinancialCalc can be executed with Python.
+Python can be downloaded from http://www.python.org/
