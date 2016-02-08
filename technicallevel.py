@@ -16,11 +16,11 @@ s2=p-(r1-s1)
 s3=l-2*(h-p)
 print "Stock : ",y
 print "Pivot Point : ", str(p)
-print "Import Resistances :"
+print "Important Resistances :"
 print r1
 print r2
 print r3
-print "Import Supports :"
+print "Important Supports :"
 print (s1)
 print (s2)
 print (s3)
