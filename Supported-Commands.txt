@@ -1,0 +1,53 @@
+#This module uses ystockquotes.
+Details of supported FUNCTIONS:
+    get_200day_moving_avg(symbol)
+    
+    get_50day_moving_avg(symbol)
+    
+    get_52_week_high(symbol)
+    
+    get_52_week_low(symbol)
+    
+    get_all(symbol)
+        Get all available quote data for the given ticker symbol.
+        
+        Returns a dictionary.
+    
+    get_avg_daily_volume(symbol)
+    
+    get_book_value(symbol)
+    
+    get_change(symbol)
+    
+    get_dividend_per_share(symbol)
+    
+    get_dividend_yield(symbol)
+    
+    get_earnings_per_share(symbol)
+    
+    get_ebitda(symbol)
+    
+    get_historical_prices(symbol, start_date, end_date)
+        Get historical prices for the given ticker symbol.
+        Date format is 'YYYY-MM-DD'
+        
+        Returns a nested dictionary (dict of dicts).
+        outer dict keys are dates ('YYYY-MM-DD')
+    
+    get_market_cap(symbol)
+    
+    get_price(symbol)
+    
+    get_price_book_ratio(symbol)
+    
+    get_price_earnings_growth_ratio(symbol)
+    
+    get_price_earnings_ratio(symbol)
+    
+    get_price_sales_ratio(symbol)
+    
+    get_short_ratio(symbol)
+    
+    get_stock_exchange(symbol)
+    
+    get_volume(symbol)
